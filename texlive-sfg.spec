@@ -49,6 +49,7 @@ machine).
 %doc %{_texmfdistdir}/doc/latex/sfg/sfg-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/sfg/sfg-doc.tex
 %doc %{_texmfdistdir}/doc/latex/sfg/sfg_test.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +60,5 @@ machine).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
