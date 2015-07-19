@@ -6,7 +6,7 @@
 # catalog-version 0.91
 Name:		texlive-sfg
 Version:	0.91
-Release:	9
+Release:	10
 Summary:	Draw signal flow graphs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sfg
