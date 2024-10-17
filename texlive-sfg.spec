@@ -3,7 +3,7 @@ Version:	20209
 Release:	2
 Summary:	Draw signal flow graphs
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sfg
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/sfg
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sfg.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sfg.doc.r%{version}.tar.xz
